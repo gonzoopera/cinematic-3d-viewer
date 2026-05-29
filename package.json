@@ -1,0 +1,39 @@
+{
+  "name": "cinematic-3d-viewer",
+  "version": "1.0.1",
+  "description": "A lightweight React component for rendering 3D models with high-contrast cinematic lighting.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src/**/*.{js,jsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzoopera/cinematic-3d-viewer.git"
+  },
+  "keywords": [
+    "react",
+    "threejs",
+    "webgl",
+    "cinematic",
+    "3d",
+    "viewer",
+    "react-three-fiber",
+    "high-contrast"
+  ],
+  "author": "Alireza Abbasi",
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-three/drei": "^9.0.0",
+    "@react-three/fiber": "^8.0.0",
+    "react": "^18.0.0",
+    "three": "^0.150.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "rollup": "^3.0.0"
+  }
+}
